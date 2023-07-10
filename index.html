@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting page</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/customstyles.css">
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/animate.min.css">
+
+</head>
+
+<body>
+    <!-- custom scroll -->
+    <div id="scroll"></div>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo-wrapper">
+                    <img src="./images/logo.png" alt="logo-img">
+                </div>
+                <ul class="main-menu">
+                    <li class="main-menu-item hover"><a href="#" target="_blank">Home</a> </li>
+                    <li class="main-menu-item hover"><a href="#Services">Services</a> </li>
+                    <li class="main-menu-item hover"><a href="#start">Our starts</a> </li>
+                    <li class="main-menu-item hover"><a href="#plans">Tools & Resources</a></li>
+                    <li class="main-menu-item mr-0"><a href="#" class="login-btn ">Login <i class="fa fa-user" aria-hidden="true"></i>
+                    </a></li>
+                </ul>
+                <a href="#" class="fa fa-bars menu-icon"></a>
+            </nav>
+
+            <div class="row align-items-center header-content">
+                <div class="col-sm-6 header-content-text animate__animated  animate__fadeInLeft"> 
+                    <p class="text-white header-text-one mb-0">Web Hosting Easy and Secure</p>
+                    <p class="text-white header-text-two">Full control of what you use and pay for</p>
+                    <div class="domain d-block d-lg-flex ">
+                        <div class="d-flex inputs"> 
+                            <input type="text" class=" border-0 outline-0 input" placeholder="searh for domain name">
+                            <select name="select" class=" border-0 outline-0 selectbox " >
+                                <option value=".com">.com</option>
+                                <option value=".org">.org</option>
+                                <option value=".ir">.ir</option>
+                            </select>
+                        </div>
+                       
+                        <button class="btn header-btn">Check Availibity</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 header-content-image animate__animated animate__fadeIn">
+                    <div>
+                        <img src="./images/header.png "class="header-image ">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- section one(services) -->
+    <section class="services" id="Services">
+        <h2 class="section-title">What will you get if you'll join us</h2>
+        <p class="section-text">Get the best web hosting service at the price you can afford</p>
+        <div class="container">
+            <div class="row main">
+                <div class="col-12 col-lg-6 service-items">
+                    <div class="service-item d-flex animate__animated wow animate__fadeInLeft">
+                        <img src="./images/service1.svg"  class="service-item-img">
+                        <div class="service-item-txt">
+                            <h3 class="service-item-txt-title">WE GIVE A CARE</h3>
+                            <p class="service-item-caption">Beside the support we provide you with various tools to be able to host and manage your websites</p>
+                        </div>
+                    </div>
+                    <div class="service-item animate__animated wow animate__fadeInLeft">
+                        <img src="./images/service2.svg"  class="service-item-img">
+                        <div class="service-item-txt">
+                            <h3 class="service-item-txt-title">TWEAK AS YOU WISH</h3>
+                            <p class="service-item-caption">Be able to customize your plan over time if needed so you pay only for what you use</p>
+                        </div>
+                    </div>
+                    <div class="service-item animate__animated wow animate__fadeInLeft">
+                        <img src="./images/service3.svg"  class="service-item-img">
+                        <div class="service-item-txt">
+                            <h3 class="service-item-txt-title">SECURITY AT ITS BEST</h3>
+                            <p class="service-item-caption">We are the most reliable service provider, ready to give you a helping hand the fastest way possible 24/7</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="service-image wow animate__animated animate__fadeIn">
+                        <img src="./images/services.png" class="w-100" alt="services">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2(start) -->
+    <section class="start" id="start">
+        <h2 class="section-title">Don't know where to start from?</h2>
+        <p class="section-text">We've got the best articles,tools and resources to help you to start</p>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 col-lg-6 wow animate__animated animate__backInLeft">
+                    <div class="start1 ">
+                        <div class="logo-wrapper d-flex ">
+                            <div class="start1-logo">
+                                <img src="./images/start-box1.svg" alt="startbox1">
+                            </div>
+                            <img src="./images/Clouds.png" class="start-img " alt="starticon1">
+                        </div>
+                        <h3 class=" start-title1">
+                            PLANING TO BUILD A WEBSITE
+                        </h3>
+                        <p class="start-caption ">
+                            You want to build a new website but not sure what to start with? We've prepared a step by step guide for you to handle the whole process from design to launch
+                        </p>
+                        <button class="btn btn-start">
+                            LEARN MORE <span class="fa fa-angle-right"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 wow animate__animated animate__backInRight">
+                    <div class="start2 ">
+                        <div class="logo-wrapper d-flex">
+                            <div class="start2-logo">
+                                <img src="./images/start-box2.svg" alt="startbox2">
+                            </div>
+                            <img src="./images/Logos.png" class="start-img" alt="starticon2">
+                        </div>
+                        <h3 class=" start-title2">
+                            WANT TO MOVE A WEBSITE TO SERVION
+                        </h3>
+                        <p class="start-caption">
+                            Already have an existing website and want to move it to Servion but not sure how to do it? No worries, it's not difficult, we can handle all the work for you.                    </p>
+                        
+                        <button class="btn btn-start btn2">
+                            LEARN MORE <span class="fa fa-angle-right"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3(products) -->
+    <section class="plans" id="plans">
+        <h2 class="section-title">Types of hosting that we provide</h2>
+        <p class="section-text">Our service is always affordable for everyone.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 wow animate__animated animate__fadeInUp"  >
+                    <div class="plan">
+                        <div class="plan-description">
+                            <img src="./images/plan1.png" >
+                            <h3 class="plan-title">SHARED HOSTING</h3>
+                            <p class="plan-caption">Increase the rank of you website by the higher speed</p>
+                        </div>
+                        <div class="plan-cost">
+                            <p class="plan-cost-txt">Get started at</p>
+                            <p class="plan-cost-number">$15.99/<span>month</span></p>
+                            <a href="#" class="plan-cost-link">CUSTOMISE PLAN<span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s"  >
+                    <div class="plan">
+                        <div class="plan-description">
+                            <img src="./images/plan2.png" >
+                            <h3 class="plan-title">VPS HOSTING</h3>
+                            <p class="plan-caption">Be able to conceal your ID whenever needed</p>
+                        </div>
+                        <div class="plan-cost">
+                            <p class="plan-cost-txt">Get started at</p>
+                            <p class="plan-cost-number">$8.99/<span>month</span>
+                            </p>
+                            <a href="#" class="plan-cost-link">CUSTOMISE PLAN<span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s"  >
+                    <div class="plan">
+                        <div class="plan-description">
+                            <img src="./images/plan3.png" >
+                            <h3 class="plan-title">CLOUD HOSTING</h3>
+                            <p class="plan-caption">Super convenient and highly customizable option</p>
+                        </div>
+                        <div class="plan-cost">
+                            <p class="plan-cost-txt">Get started at</p>
+                            <p class="plan-cost-number">$7.99/<span>month</span>
+                            </p>
+                            <a href="#" class="plan-cost-link">CUSTOMISE PLAN<span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s"  >
+                    <div class="plan">
+                        <div class="plan-description">
+                            <img src="./images/plan4.png" >
+                            <h3 class="plan-title">WORDPRESS HOSTING</h3>
+                            <p class="plan-caption">With low cost and high variety of tools, plugins of your choice</p>
+                        </div>
+                        <div class="plan-cost">
+                            <p class="plan-cost-txt">Get started at</p>
+                            <p class="plan-cost-number">$13.99/<span>month</span>
+                            </p>
+                            <a href="#" class="plan-cost-link">CUSTOMISE PLAN<span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- SECTION 4(COMMENTS) -->
+    <section class="comments">
+        <h2 class="section-title">Valued customers with valuable feedback</h2>
+        <p class="section-text">Feedbacks from our happy users. Become one of them.</p>
+        <div class="container container-slider">
+            <div class="swiffy-slider ">
+                <ul class="slider-container">
+                    <li>
+                        <div class="comment d-flex">
+                            <img src="./images/person1.png" alt="person1">
+                            <div class="comment-content ">
+                                <div class="comment-content-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p class="comment-content-note"><i> "I ve been using Servion for hosting many of my wordpress websites and I truly appreciate how affordable it is"</i></p>
+                                <p class="comment-content-author"><b> - John Benjamin</b></p>
+                            </div>
+                        </div>
+                     </li>
+                    <li>
+                        <div class="comment d-flex">
+                            <img src="./images/person2.png" alt="person2">
+                            <div class="comment-content ">
+                                <div class="comment-content-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p class="comment-content-note"><i> "I ve been using Servion for hosting many of my wordpress websites and I truly appreciate how affordable it is"</i></p>
+                                <p class="comment-content-author"><b> - Emily Hartman</b></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="comment d-flex">
+                            <img src="./images/person1.png" alt="person1">
+                            <div class="comment-content ">
+                                <div class="comment-content-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p class="comment-content-note"><i> "I ve been using Servion for hosting many of my wordpress websites and I truly appreciate how affordable it is"</i></p>
+                                <p class="comment-content-author"><b> - John Benjamin</b></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <button type="button" class="slider-nav slider-nav-prev"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+            
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            
+           
+            
+        </div>
+        <img src="./images/dotted_square.png" class="comments-img comments-img1 d-sm-none d-lg-block">
+        <img src="./images/dotted_square.png" class="comments-img comments-img2 d-sm-none d-lg-block">
+    </section>
+
+    <!-- section 5(clients) -->
+    <section class="clients wow animate__animated animate__fadeInUp">
+        <h2 class="section-title">Our Clients</h2>
+        <p class="section-text">Get the best web hosting service at the price you can afford</p>
+        <div class="container">
+            <div class="client">
+            <ul class="client-logos d-flex">
+                <li><img src="./images/robinhood-1.png" class="client-logo "></li>
+                <li><img src="./images/reddit-1.png" class="client-logo"></li>
+                <li><img  src="./images/upcase.png" class="client-logo"></li>
+                <li><img src="./images/hubspot.png" class="client-logo"></li>
+                <li><img src="./images/tunein.png" class="client-logo"></li>
+            </ul>
+            <a href="#" class="btn btn-client">GET FREE TRIAL</a>
+        </div>
+        
+        </div>
+
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h3 class="footer-head">HOSTING</h3>
+                    <ul class="footer-items">
+                        <li class="footer-item"><a href="#">Shared Hosting</a></li>
+                        <li class="footer-item"><a href="#"> VPS Hosting</a></li>
+                        <li class="footer-item"><a href="#">Cloud Hosting</a></li>
+                        <li class="footer-item"><a href="#">Wordpress Hosting</a></li>
+                    </ul>     
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h3 class="footer-head">FEATURES</h3>
+                    <ul class="footer-items">
+                        <li class="footer-item"><a href="#">Beginner Guide</a></li>
+                        <li class="footer-item"><a href="#">Move to Servion</a></li>
+                        <li class="footer-item"><a href="#">Website Builder</a></li>
+                        <li class="footer-item"><a href="#">Tools and Resources</a></li>
+                    </ul>   
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h3 class="footer-head">SUPPORT</h3>
+                    <ul class="footer-items">
+                        <li class="footer-item"><a href="#">Help Center</a></li>
+                        <li class="footer-item"><a href="#">Submit a Ticket</a></li>
+                        <li class="footer-item"><a href="#">Contact Us</a></li>
+                        <li class="footer-item"><a href="#">Blog  </a></li>
+                    </ul>   
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h3 class="footer-head">WE ACCEPT</h3>
+                    <div class="footer-accepts d-flex">
+                        <div class="footer-accept">
+                            <img src="./images/footer1.png" class="footer-accept-image">
+                        </div>
+                        <div class="footer-accept">
+                            <img src="./images/footer2.png" class="footer-accept-image">
+                        </div>
+                        <div class="footer-accept">
+                            <img src="./images/footer3.png" class="footer-accept-image">
+                        </div>
+                        <div class="footer-accept">
+                            <img src="./images/footer4.png" class="footer-accept-image">
+                        </div>
+                        <div class="footer-accept mr-0">
+                            <img src="./images/footer5.png" class="footer-accept-image">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                
+            </div>
+
+            <div class="footer-contact d-flex ">
+                <div class="footer-contact-address">
+                    <div class="address-logo-image">
+                        <img src="./images/logo.png" alt="logo">
+                    </div>
+                    <p class="address-text">St. Patrick Ave., 10233 <br>USA</p>
+                </div>
+                <div class="footer-contact-socialmedias">
+                    <div class="footer-contact-socialmedia d-flex align-items-center">
+                        <a href="#" class="socialmedia"><img src="./images/instagram.svg" ></a>
+                        <a href="#" class="socialmedia"><img src="./images/twitter.svg" ></a>
+                        <a href="#" class="socialmedia"><img src="./images/youtube.svg" ></a>
+                        <a href="#" class="socialmedia"><img src="./images/facebook.svg" ></a>
+                    </div>
+                    <a href="#" class="socialmedia-text1">Terms of Service</a>
+                    <a href="#" class="socialmedia-text2" > Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

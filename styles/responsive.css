@@ -1,0 +1,144 @@
+@media screen and (max-width:1200px){
+    .start2{
+        padding-bottom: 25px;
+    }
+    .btn2{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:992px) {
+    .nav{
+        padding: 25px 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .main-menu{
+        display: block;
+        position: fixed;
+        left: -250px;
+        top:0;
+        background-color:#8381c3;
+        width: 250px;
+        height: 1500px; 
+        z-index: 100;
+    }
+
+    .main-menu-item{
+        padding-top: 20px !important;
+    }
+    .main-menu-item.active{
+        background-color: transparent !important;
+    }
+    .login-btn{
+        display: block;
+        text-align: center;
+
+    }
+    .header-btn{
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .input{
+        max-width: 100%;
+    }
+    .inputs{
+        padding: 10px 0;
+    }
+    
+
+}  
+
+
+@media screen and (max-width:768px){
+    .header-content{
+        margin-top: 0;
+    }
+    .header-content-image{
+        margin-top: 0;
+        order: 0;
+    }
+    .header-content-text{
+        order: 1;
+    }
+    .header-text-one{
+        font-size: 30px;
+    }
+    .input{
+        max-width: 100%;
+    }
+    .plan-cost{
+        height: 227px;
+        
+    }
+    .plan{
+        margin-bottom: 50px;
+    }
+    .plan-description{
+        border-top: 8px solid #93A5FF;
+    }
+    .footer-items{
+        margin-bottom: 30px;
+    
+    }
+}  
+
+
+@media screen and (max-width:576px){
+    .header-text-one{
+        font-size: 34px;
+    }
+    .header-text-two{
+        font-size: 17px;
+    }
+    .start-img{
+        max-width: 150px;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .section-text{
+        font-size: 12px;
+    }
+    /* --footer */
+    .footer{
+        text-align: center;
+    }
+    .footer-items{
+        margin-bottom: 30px;
+    
+    }
+    .footer-accepts{
+        justify-content: center;
+    }
+    .footer-contact{
+        justify-content: center !important;
+    }
+    .footer-contact-socialmedia{
+        justify-content: center;
+        margin-top: 10px;
+        
+    }
+    /* --comment */
+    .comment-content-rating{
+        font-size: 9px;
+    }
+    .comment img{
+        max-width: 80px;
+    } 
+    .comment-content-note{
+        font-size: 12px;
+    }
+    .comment-content-author{
+        font-size: 13px;
+    }
+    .comments-img{
+        display: none;
+    }
+
+    
+  
+
+}  
+
